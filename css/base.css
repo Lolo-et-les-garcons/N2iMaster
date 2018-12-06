@@ -1,2 +1,3 @@
-main {
-  position: relative; }
+@import url(bootstrap.css);
+@import url(index.css);
+@import url(stock.css);
