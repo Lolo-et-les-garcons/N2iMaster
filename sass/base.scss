@@ -1,3 +1,53 @@
+$color1: #171720;
+$color2: #191102;
+$color3: #BBD8B3;
+
 @import "bootstrap.css";
 @import "index.css";
 @import "stock.css";
+
+body {
+	height: 100%;
+	background-color: $color1;
+}
+
+#nav {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: $color2;
+	ul {
+		width: 100%;
+		display: flex;
+		align-self: center;
+		list-style: none;
+		li {
+			padding-right: 35px;
+			font-size: 2em;
+			a {
+				color: white;
+				font-weight: 600;
+			}
+			a:hover {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+}
+
+.title {
+	height: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	h1 {
+		padding: 25px;
+		color: $color1;
+		background-color: $color3;
+		text-transform: uppercase;
+		font-weight: 700;
+		letter-spacing: 3px;
+	}
+}

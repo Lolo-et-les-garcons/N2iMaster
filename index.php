@@ -10,21 +10,13 @@
 	</head>
 	<body>
 		<div class="container-fluid">
-			<div class="row">
-				<div id=nav class="col-md-12">
-					<ul>
-						<li><a href="#">LIEN</a></li>
-						<li><a href="#">LIEN</a></li>
-						<li><a href="#">LIEN</a></li>
-					</ul>
-				</div>
-			</div>
+			<?php include "php/nav.php" ?>
 			<div class="row">
 				<div class="col-md-12 title">
 					<h1>Panneau de contrôle</h1>
 				</div>
 			</div>
-			<div class="row row1">
+			<div class="row index-row1">
 				<div class="col-md-5 col-md-offset-1 vent">
 					<img src="img/vent.png">
 					<h2>Vent : OUI</h2>
@@ -40,7 +32,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="row row2">
+			<div class="row index-row2">
 				<div class="col-md-4 col-md-offset-1 energie">
 					<div class="jauge"><div></div></div>
 					<h2>Energie</h2>

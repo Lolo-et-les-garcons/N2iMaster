@@ -1,3 +1,55 @@
 @import url(bootstrap.css);
 @import url(index.css);
 @import url(stock.css);
+body {
+  height: 100%;
+  background-color: #171720; }
+
+#nav {
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #191102; }
+  #nav ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-item-align: center;
+    align-self: center;
+    list-style: none; }
+    #nav ul li {
+      padding-right: 35px;
+      font-size: 2em; }
+      #nav ul li a {
+        color: white;
+        font-weight: 600; }
+      #nav ul li a:hover {
+        color: white;
+        text-decoration: none; }
+
+.title {
+  height: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .title h1 {
+    padding: 25px;
+    color: #171720;
+    background-color: #BBD8B3;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px; }

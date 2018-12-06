@@ -34,5 +34,5 @@ $(document).ready(function() {
          flag = 1;
       }
       jauge.css("height", height+"%");
-   }, 2000);
+   }, 2500);
 });
